@@ -2,6 +2,12 @@
 *::before,
 *::after {
     font-family: Poppins;
+    box-sizing: border-box;
+}
+/* RESETTING FONT for FontAwesome Icons */
+i::before {
+    font-family: FontAwesome;
+    font-weight: normal;
 }
 
 html,
@@ -9,27 +15,12 @@ body {
     height: 100vh;
 }
 
-.section-header {
-    z-index: 100;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #111;
-    overflow: hidden;
-    height: 4em;
-}
-.navbar-item {
-    margin: auto -3em;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    font-size: 1.2em;
-}
-
+/* 
+----------------
+    PARALLAX
+----------------
+*/
 .parallax {
-    /* opacity: 70%; */
-
     min-height: 100%;
 
     position: relative;
@@ -37,14 +28,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.bgimg-1 {
-    background-image: url("../img/fantasy.jpg");
-}
-.bgimg-2 {
-    background-image: url("https://source.unsplash.com/720x640/?flames");
-}
 
+    display: flex;
+    align-items: center;
+}
+/* TEXT ON PARALLAX */
 .parallax > div.text-on-image {
     position: absolute;
     left: 50%;
@@ -62,8 +50,73 @@ body {
     letter-spacing: 10px;
 }
 
+/* 
+-------------------------
+    SECTION HEADERS/NAVBARS
+-------------------------
+*/
+.section-header {
+    z-index: 100;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #111;
+    overflow: hidden;
+    height: 4em;
+    overflow: hidden;
+}
+.section-header .navbar .item {
+    /* margin: auto -3em; */
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+/* ICONS */
+.section-header .navbar .item,
+.section-header .navbar i {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.section-header .navbar .item span.label {
+    margin: auto 1em;
+}
+.section-header .navbar i {
+    display: inline-flex;
+    align-items: center;
+}
+.section-header .navbar i::before {
+    font-size: 2em;
+}
+
+/* 
+-------------------------
+    BACKGROUND IMAGES
+-------------------------
+*/
+.bgimg-classe {
+    /* background-image: url("../img/fantasy.jpg"); */
+    background-image: url("../img/631.jpg");
+}
+.bgimg-docenti {
+    /* background-image: url("https://source.unsplash.com/720x640/?flames"); */
+    /* background-image: url("../img/631.jpg"); */
+    background-image: url("../img/crop-hand-man-chalking-graph-blackboard.jpeg");
+}
+.bgimg-sviluppatori {
+    background-image: url("../img/238.jpg");
+}
+
+/* 
+-----------------
+    SECTIONS
+-----------------
+*/
 .description {
-    height: 30vh;
+    height: auto;
     background-color: #111;
     color: white;
 }
@@ -72,4 +125,25 @@ body {
 }
 .text-container p {
     text-align: justify;
+}
+
+/* 
+-----------------
+    FOOTER
+-----------------
+*/
+footer {
+    width: 100%;
+    height: 50vh;
+}
+footer div {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+footer div .credit {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
 }
