@@ -15,13 +15,18 @@ body {
     height: 100vh;
 }
 
+body {
+    scroll-snap-type: y proximity;
+    scroll-snap-type: 100vh;
+}
+
 /* 
 ----------------
     PARALLAX
 ----------------
 */
 .parallax {
-    min-height: 100%;
+    min-height: 100vh;
 
     position: relative;
     background-attachment: fixed;
@@ -52,6 +57,24 @@ body {
 
 /* 
 -------------------------
+    BACKGROUND IMAGES
+-------------------------
+*/
+.bgimg-classe {
+    /* background-image: url("../img/fantasy.jpg"); */
+    background-image: url("../img/631.jpg");
+}
+.bgimg-docenti {
+    /* background-image: url("https://source.unsplash.com/720x640/?flames"); */
+    /* background-image: url("../img/631.jpg"); */
+    background-image: url("../img/crop-hand-man-chalking-graph-blackboard.jpeg");
+}
+.bgimg-sviluppatori {
+    background-image: url("../img/238.jpg");
+}
+
+/* 
+-------------------------
     SECTION HEADERS/NAVBARS
 -------------------------
 */
@@ -62,8 +85,9 @@ body {
     top: 0;
     background-color: #111;
     overflow: hidden;
-    height: 4em;
-    overflow: hidden;
+    height: auto;
+    padding: 1vh 0;
+    opacity: 97%;
 }
 .section-header .navbar .item {
     /* margin: auto -3em; */
@@ -73,6 +97,7 @@ body {
     font-weight: bolder;
     font-size: 1.2em;
 }
+
 /* ICONS */
 .section-header .navbar .item,
 .section-header .navbar i {
@@ -93,30 +118,12 @@ body {
 }
 
 /* 
--------------------------
-    BACKGROUND IMAGES
--------------------------
-*/
-.bgimg-classe {
-    /* background-image: url("../img/fantasy.jpg"); */
-    background-image: url("../img/631.jpg");
-}
-.bgimg-docenti {
-    /* background-image: url("https://source.unsplash.com/720x640/?flames"); */
-    /* background-image: url("../img/631.jpg"); */
-    background-image: url("../img/crop-hand-man-chalking-graph-blackboard.jpeg");
-}
-.bgimg-sviluppatori {
-    background-image: url("../img/238.jpg");
-}
-
-/* 
 -----------------
     SECTIONS
 -----------------
 */
-.description {
-    height: auto;
+section.description {
+    min-height: 50%;
     background-color: #111;
     color: white;
 }
@@ -126,13 +133,18 @@ body {
 .text-container p {
     text-align: justify;
 }
-
+.description-image-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
 /* 
 -----------------
     FOOTER
 -----------------
 */
 footer {
+    margin-top: 25vh;
     width: 100%;
     height: 50vh;
 }

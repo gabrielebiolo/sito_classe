@@ -46,7 +46,7 @@
     </div> -->
     <div class="parallax bgimg-classe" alt="Classe">
         <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly flex-nowrap">
+            <div class="navbar col-6 justify-content-evenly" id="classe">
                 <a href="#classe" class="item">
                     <i class="fas fa-user-graduate"></i>
                     <span class="label">CLASSE</span>
@@ -55,14 +55,14 @@
                     <i class="fas fa-chalkboard-teacher"></i>
                     <span class="label">DOCENTI</span>
                 </a>
-                <a href="#sviluppatori" class="item">
+                <a href="#developers" class="item">
                     <i class="fas fa-code"></i>
                     <span class="label">SVILUPPATORI</span>
                 </a>
             </div>
         </div>
     </div>
-    <section class="description d-flex justify-content-center align-items-center p-5" id="home">
+    <section class="description d-flex justify-content-center align-items-center p-5">
         <div class="text-container col-6 d-flex flex-column">
             <h2 class="title align-self-center mb-2">CLASSE</h2>
             <p class="">
@@ -74,14 +74,23 @@
 
     <div class="parallax bgimg-docenti" alt="Docente che scrive alla lavagna">
         <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly">
-                <a href="#classe" class="item">CLASSE</a>
-                <a href="#docenti" class="item">DOCENTI</a>
-                <a href="#sviluppatori" class="item">SVILUPPATORI</a>
+            <div class="navbar col-6 justify-content-evenly" id="docenti">
+                <a href="#classe" class="item">
+                    <i class="fas fa-user-graduate"></i>
+                    <span class="label">CLASSE</span>
+                </a>
+                <a href="#docenti" class="item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span class="label">DOCENTI</span>
+                </a>
+                <a href="#developers" class="item">
+                    <i class="fas fa-code"></i>
+                    <span class="label">SVILUPPATORI</span>
+                </a>
             </div>
         </div>
     </div>
-    <section class="description d-flex justify-content-center align-items-center p-5" id="home">
+    <section class="description d-flex justify-content-center align-items-center p-5">
         <div class="text-container col-6 d-flex flex-column">
             <h2 class="title align-self-center mb-2">DOCENTI</h2>
             <p class="">
@@ -93,14 +102,26 @@
 
     <div class="parallax bgimg-sviluppatori" alt="Docente che scrive alla lavagna">
         <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly">
-                <a href="#classe" class="item">CLASSE</a>
-                <a href="#docenti" class="item">DOCENTI</a>
-                <a href="#sviluppatori" class="item">SVILUPPATORI</a>
+            <div class="navbar col-6 justify-content-evenly" id="developers">
+                <a href="#classe" class="item">
+                    <i class="fas fa-user-graduate"></i>
+                    <span class="label">CLASSE</span>
+                </a>
+                <a href="#docenti" class="item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span class="label">DOCENTI</span>
+                </a>
+                <a href="#developers" class="item">
+                    <i class="fas fa-code"></i>
+                    <span class="label">SVILUPPATORI</span>
+                </a>
             </div>
         </div>
     </div>
-    <section class="description d-flex justify-content-center align-items-center p-5" id="home">
+    <section class="description d-flex justify-content-between align-items-center p-5">
+        <div class="description-image-container">
+            <img class="description-image col-8" src="img/undraw_web_developer_re_h7ie.svg" alt="Programmatore stilizzato">
+        </div>    
         <div class="text-container col-6 d-flex flex-column">
             <h2 class="title align-self-center mb-2">SVILUPPATORI</h2>
             <p class="">
@@ -108,6 +129,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
             </p>
         </div>
+        <div class="description-image-container">
+            <img class="description-image col-8" src="img/undraw_engineering_team_u99p.svg" alt="Programmatore stilizzato">
+        </div>  
     </section>
     
 
