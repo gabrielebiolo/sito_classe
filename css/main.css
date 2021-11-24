@@ -15,9 +15,18 @@ body {
     height: 100vh;
 }
 
-body {
-    scroll-snap-type: y proximity;
-    scroll-snap-type: 100vh;
+.main-section-wrapper {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-margin-right: 15vh;
+    scroll-margin-left: 15vh;
+}
+.main-section-wrapper > div,
+.main-subsection-wrapper {
+    height: 100vh;
+    scroll-snap-align: center;
+    min-width: 100vw;
 }
 
 /* 
@@ -74,9 +83,9 @@ body {
 }
 
 /* 
--------------------------
+----------------------------------
     SECTION HEADERS/NAVBARS
--------------------------
+----------------------------------
 */
 .section-header {
     z-index: 100;
@@ -87,7 +96,7 @@ body {
     overflow: hidden;
     height: auto;
     padding: 1vh 0;
-    opacity: 97%;
+    opacity: 96%;
 }
 .section-header .navbar .item {
     /* margin: auto -3em; */
@@ -127,6 +136,9 @@ section.description {
     background-color: #111;
     color: white;
 }
+.text-container {
+    width: 50%;
+}
 .text-container h2 {
     display: block;
 }
@@ -135,8 +147,14 @@ section.description {
 }
 .description-image-container {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    width: 20%;
+}
+.description-image {
+    max-height: 100%;
+    max-width: 100%;
 }
 /* 
 -----------------

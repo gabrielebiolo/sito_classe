@@ -44,106 +44,102 @@
             <span class="border">CLASSE 5BI</span>
         </div>
     </div> -->
-    <div class="parallax bgimg-classe" alt="Classe">
-        <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly" id="classe">
-                <a href="#classe" class="item">
-                    <i class="fas fa-user-graduate"></i>
-                    <span class="label">CLASSE</span>
-                </a>
-                <a href="#docenti" class="item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <span class="label">DOCENTI</span>
-                </a>
-                <a href="#developers" class="item">
-                    <i class="fas fa-code"></i>
-                    <span class="label">SVILUPPATORI</span>
-                </a>
+    <div class="main-section-wrapper">
+        <div class="main-subsection-wrapper">
+            <div class="parallax bgimg-classe" alt="Classe">
+                <div class="section-header w-100 d-flex justify-content-center">
+                    <div class="navbar col-6 justify-content-center flex-nowrap w-auto" id="classe">
+                        <a href="#classe" class="item">
+                            <i class="fas fa-user-graduate"></i>
+                            <span class="label">CLASSE</span>
+                        </a>
+                    </div>
+                </div>
             </div>
+            <section class="description d-flex justify-content-between align-items-center p-5">
+                <div class="description-image-container">
+                    <img class="description-image col-8" src="img/undraw_exams_g-4-ow.svg" alt="Insengante">
+                </div>
+                <div class="text-container col-6 d-flex flex-column">
+                    <h2 class="title align-self-center mb-2">CLASSE</h2>
+                    <p class="">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
+                    </p>
+                </div>
+                <div class="description-image-container">
+                    <img class="description-image col-8" src="img/undraw_studying_s-3-l7.svg" alt="Insengante">
+                </div>
+            </section>
         </div>
-    </div>
-    <section class="description d-flex justify-content-center align-items-center p-5">
-        <div class="text-container col-6 d-flex flex-column">
-            <h2 class="title align-self-center mb-2">CLASSE</h2>
-            <p class="">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
-            </p>
-        </div>
-    </section>
 
-    <div class="parallax bgimg-docenti" alt="Docente che scrive alla lavagna">
-        <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly" id="docenti">
-                <a href="#classe" class="item">
-                    <i class="fas fa-user-graduate"></i>
-                    <span class="label">CLASSE</span>
-                </a>
-                <a href="#docenti" class="item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <span class="label">DOCENTI</span>
-                </a>
-                <a href="#developers" class="item">
-                    <i class="fas fa-code"></i>
-                    <span class="label">SVILUPPATORI</span>
-                </a>
+        <div class="main-subsection-wrapper">
+            <div class="parallax bgimg-docenti" alt="Docente che scrive alla lavagna">
+                <div class="section-header w-100 d-flex justify-content-center">
+                    <div class="navbar col-6 justify-content-center flex-nowrap w-auto" id="docenti">
+                        <a href="#docenti" class="item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span class="label">DOCENTI</span>
+                        </a>
+                    </div>
+                </div>
             </div>
+            <section class="description d-flex justify-content-between align-items-center p-5">
+                <div class="description-image-container">
+                    <img class="description-image col-8" src="img/undraw_teaching_f-1-cm.svg" alt="Insengante">
+                </div>
+                <div class="text-container col-6 d-flex flex-column">
+                    <h2 class="title align-self-center mb-2">DOCENTI</h2>
+                    <p class="">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
+                    </p>
+                </div>
+                <div class="description-image-container">
+                    <img class="description-image col-8" src="img/undraw_teaching_f-1-cm.svg" alt="Insengante">
+                </div>
+            </section>
         </div>
-    </div>
-    <section class="description d-flex justify-content-center align-items-center p-5">
-        <div class="text-container col-6 d-flex flex-column">
-            <h2 class="title align-self-center mb-2">DOCENTI</h2>
-            <p class="">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
-            </p>
-        </div>
-    </section>
 
-    <div class="parallax bgimg-sviluppatori" alt="Docente che scrive alla lavagna">
-        <div class="section-header w-100 d-flex justify-content-center">
-            <div class="navbar col-6 justify-content-evenly" id="developers">
-                <a href="#classe" class="item">
-                    <i class="fas fa-user-graduate"></i>
-                    <span class="label">CLASSE</span>
-                </a>
-                <a href="#docenti" class="item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <span class="label">DOCENTI</span>
-                </a>
-                <a href="#developers" class="item">
-                    <i class="fas fa-code"></i>
-                    <span class="label">SVILUPPATORI</span>
-                </a>
+        <div class="main-subsection-wrapper">
+            <div class="parallax bgimg-sviluppatori" alt="Docente che scrive alla lavagna">
+                <div class="section-header w-100 d-flex justify-content-center">
+                    <div class="navbar col-6 justify-content-center flex-nowrap" id="developers">
+                        <a href="#developers" class="item">
+                            <i class="fas fa-code"></i>
+                            <span class="label">SVILUPPATORI</span>
+                        </a>
+                    </div>
+                </div>
             </div>
+            <section class="description d-flex justify-content-between align-items-center p-5">
+                <div class="description-image-container">
+                    <img class="description-image" src="img/undraw_web_developer_re_h7ie.svg" alt="Programmazione Web">
+                </div>
+                <div class="text-container d-flex flex-column">
+                    <h2 class="title align-self-center mb-2">SVILUPPATORI</h2>
+                    <p class="">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
+                    </p>
+                </div>
+                <div class="description-image-container">
+                    <img class="description-image" src="img/undraw_engineering_team_u99p.svg" alt="Costruzione Sito">
+                </div>  
+            </section>
         </div>
     </div>
-    <section class="description d-flex justify-content-between align-items-center p-5">
-        <div class="description-image-container">
-            <img class="description-image col-8" src="img/undraw_web_developer_re_h7ie.svg" alt="Programmatore stilizzato">
-        </div>    
-        <div class="text-container col-6 d-flex flex-column">
-            <h2 class="title align-self-center mb-2">SVILUPPATORI</h2>
-            <p class="">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
-            </p>
-        </div>
-        <div class="description-image-container">
-            <img class="description-image col-8" src="img/undraw_engineering_team_u99p.svg" alt="Programmatore stilizzato">
-        </div>  
-    </section>
     
 
 
 
-    <footer class="">
+    <!-- <footer class="">
         <div class="images-credits">
             <a class="credit freepik-credit" href="https://www.freepik.com/vectors/school">School vector created by upklyak - www.freepik.com</a>
             <a class="credit freepik-credit" href="https://www.freepik.com/photos/circle">Circle photo created by freepik - www.freepik.com</a>
             <a class="credit freepik-credit" href='https://www.freepik.com/vectors/banner'>Banner vector created by roserodionova - www.freepik.com</a>
         </div>
 
-    </footer>
+    </footer> -->
 </body>
 </html>
