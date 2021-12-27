@@ -15,18 +15,24 @@
         case 'CLASSE':
           $x = '<a href="#section-disabled"><i class="bi bi-chevron-bar-left disabled"></i></a>';
           $y = 'fa-user-graduate';
-          $z = '<a href="#section-docenti"><i class="bi bi-chevron-bar-right"></i></a>';
+          $z = '<a href="#main-section-docenti"><i class="bi bi-chevron-bar-right"></i></a>';
           break;
         case 'DOCENTI':
-          $x = '<a href="#section-classe"><i class="bi bi-chevron-bar-left"></i></a>';
+          $x = '<a href="#main-section-classe"><i class="bi bi-chevron-bar-left"></i></a>';
           $y = 'fa-chalkboard-teacher';
-          $z = '<a href="#section-sviluppatori"><i class="bi bi-chevron-bar-right"></i></a>';
+          $z = '<a href="#main-section-istituto"><i class="bi bi-chevron-bar-right"></i></a>';
+          break;
+        case 'ISTITUTO':
+          $x = '<a href="#main-section-docenti"><i class="bi bi-chevron-bar-left"></i></a>';
+          $y = 'fa-university';
+          $z = '<a class="disabled" href="#main-section-sviluppatori"><i class="bi bi-chevron-bar-right disabled"></i></a>';
           break;
         case 'SVILUPPATORI':
-          $x = '<a href="#section-docenti"><i class="bi bi-chevron-bar-left"></i></a>';
+          $x = '<a href="#main-section-istituto"><i class="bi bi-chevron-bar-left"></i></a>';
           $y = 'fa-code';
-          $z = '<a href="#section-disabled"><i class="bi bi-chevron-bar-right disabled"></i></a>';
+          $z = '<a class="disabled" href="#main-section-disabled"><i class="bi bi-chevron-bar-right disabled"></i></a>';
           break;
+        
       }
       echo '<div class="section-header w-100 d-flex justify-content-center" id="section-'.strtolower($section).'">
         <div class="navbar w-100 col-6 justify-content-center flex-nowrap" id="'.strtolower($section).'">

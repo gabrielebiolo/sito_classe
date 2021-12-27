@@ -39,7 +39,7 @@ include 'functions.php';
     </div> -->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <div class="main-section-wrapper">
-        <div class="main-subsection-wrapper">
+        <div id="main-section-classe" class="main-subsection-wrapper">
             <div class="parallax bgimg-classe sticky top-0" alt="Classe">
                 <?php 
                     printNavbar("CLASSE");
@@ -47,7 +47,7 @@ include 'functions.php';
             </div>
             <section class="description d-flex justify-content-between align-items-center p-5">
                 <div class="description-image-container">
-                    <img class="description-image col-8" src="../img/undraw_exams_g-4-ow.svg" alt="Insengante">
+                    <img class="description-image col-8" src="../img/undraw_exams_g-4-ow.svg" alt="classe">
                 </div>
                 <div class="text-container col-6 d-flex flex-column">
                     <h2 class="title align-self-center mb-2">CLASSE</h2>
@@ -57,12 +57,12 @@ include 'functions.php';
                     </p>
                 </div>
                 <div class="description-image-container">
-                    <img class="description-image col-8" src="../img/undraw_studying_s-3-l7.svg" alt="Insengante">
+                    <img class="description-image col-8" src="../img/undraw_studying_s-3-l7.svg" alt="classe">
                 </div>
             </section>
         </div>
 
-        <div class="main-subsection-wrapper">
+        <div id="main-section-docenti" class="main-subsection-wrapper">
             <div class="parallax bgimg-docenti sticky top-0" alt="Docente che scrive alla lavagna">
                 <?php 
                     printNavbar("DOCENTI");
@@ -85,7 +85,35 @@ include 'functions.php';
             </section>
         </div>
 
-        <div class="main-subsection-wrapper">
+        <div id="main-section-istituto" class="main-subsection-wrapper">
+            <div class="parallax bgimg-istituto sticky top-0" alt="Docente che scrive alla lavagna">
+                <?php 
+                    printNavbar("ISTITUTO");
+                ?>            
+            </div>
+            <section class="description d-flex justify-content-between align-items-center p-5">
+                <div class="col-12">
+                    <div class="description-image-container">
+                    <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
+                </div>
+                <div class="text-container col-6 d-flex flex-column">
+                    <h2 class="title align-self-center mb-2">Istituto</h2>
+                    <p class="">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
+                    </p>
+                </div>
+                <div class="description-image-container">
+                    <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
+                </div>
+                </div>
+                <div class="links col-12">
+                    <a href="problems.php"><i class="fa fa-exclamation-circle"></i></a>
+                </div>
+            </section>
+        </div>
+
+        <div id="main-section-sviluppatori" class="main-subsection-wrapper">
             <div class="parallax bgimg-sviluppatori sticky top-0" alt="Docente che scrive alla lavagna">
                 <?php 
                     printNavbar("SVILUPPATORI");
@@ -109,6 +137,19 @@ include 'functions.php';
         </div>
     </div>
 
+    <script type="module">
+        const ClasseViva = require("classeviva-apiv2").ClasseViva;
+
+        ClasseViva.establishSession("username", "password").then(async session => {
+            const profile = await session.getProfile();
+            const marks = await session.getMarks();
+
+            console.log(profile);
+        });
+    </script>
+
+    <script type="text/javascript">
+    </script>
 
 <?php 
     include 'footer.php';
