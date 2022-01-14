@@ -94,18 +94,18 @@ include 'functions.php';
             <section class="description d-flex justify-content-between align-items-center p-5">
                 <div class="col-12">
                     <div class="description-image-container">
-                    <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
-                </div>
-                <div class="text-container col-6 d-flex flex-column">
-                    <h2 class="title align-self-center mb-2">Istituto</h2>
-                    <p class="">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
-                    </p>
-                </div>
-                <div class="description-image-container">
-                    <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
-                </div>
+                        <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
+                    </div>
+                    <div class="text-container col-6 d-flex flex-column">
+                        <h2 class="title align-self-center mb-2">Istituto</h2>
+                        <p class="">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus maiores distinctio eius, molestiae labore deserunt sed aliquid optio ipsa accusamus tempora ut non similique sunt dicta, pariatur laudantium aperiam facilis?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores, unde repudiandae veritatis voluptatum molestiae nam dolor sequi dolore rem nobis mollitia deserunt aut corporis provident velit consectetur iure soluta?
+                        </p>
+                    </div>
+                    <div class="description-image-container">
+                        <img class="description-image col-8" src="../img/undraw_teaching_f-1-cm.svg" alt="Istituto">
+                    </div>
                 </div>
                 <div class="links col-12">
                     <a href="problems.php"><i class="fa fa-exclamation-circle"></i></a>
@@ -136,18 +136,6 @@ include 'functions.php';
             </section>
         </div>
     </div>
-
-    <script type="module">
-        const ClasseViva = require("classeviva-apiv2").ClasseViva;
-
-        ClasseViva.establishSession("username", "password").then(async session => {
-            const profile = await session.getProfile();
-            const marks = await session.getMarks();
-
-            console.log(profile);
-        });
-    </script>
-
     <script type="text/javascript">
     </script>
 
