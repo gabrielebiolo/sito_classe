@@ -1,6 +1,6 @@
 const { Classeviva } = require('classeviva.js');
 
-const classeviva = new Classeviva('G6339209J', 'todeGAY2022!');
+const classeviva = new Classeviva('', '');
 
     (async () => {
         await classeviva.login();
@@ -8,22 +8,25 @@ const classeviva = new Classeviva('G6339209J', 'todeGAY2022!');
         classeviva.getGrades()
         .then(grades  => {
             console.log(`Hai un totale di  ${grades.length} voti`);
+            console.log(Object.values(grades));
+       
         });
 
         classeviva.getCalendar()
         .then(date => {
             console.log(`Calendario: `);
-            console.log(Object.prototype.toString.call(date[0]));
+            console.log(Object.values(date));
+       
         });
 
         classeviva.getNotes()
         .then(note => {
-            console.log(`Notes: ${note}`);
+            console.log(Object.values(note));
         });
 
         classeviva.getSubjects()
         .then(subject => {
-            console.log(`Sub:: ${subject}`);
+            console.log(Object.values(subject));
         });
 
         setTimeout(() => {1
