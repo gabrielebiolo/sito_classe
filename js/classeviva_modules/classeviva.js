@@ -29,7 +29,7 @@ const classeviva = new Classeviva('', '');
             console.log(Object.values(subject));
         });
 
-        setTimeout(() => {1
+        setTimeout(() => {
             classeviva.logout();
             process.exit();
         }, 3500);
