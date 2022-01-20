@@ -55,7 +55,6 @@
 
         <div id="main-section-classe" class="main-subsection-wrapper">
             <div class="parallax bgimg-classe sticky top-0" alt="Classe">
->>>>>>> Stashed changes
                 <?php 
                     printNavbar("CLASSE");
                 ?>
@@ -78,10 +77,6 @@
         </div>
 
     </div>
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 
     <!-- <footer class="">
