@@ -73,6 +73,9 @@ body{
     BACKGROUND IMAGES
 -------------------------
 */
+.bgimg-istituto {
+    background-image: url("https://source.unsplash.com/1920x1080/?earth");
+}
 .bgimg-classe {
     /* background-image: url("../img/fantasy.jpg"); */
     background-image: url("../img/631.jpg");
@@ -81,9 +84,6 @@ body{
     /* background-image: url("https://source.unsplash.com/720x640/?flames"); */
     /* background-image: url("../img/631.jpg"); */
     background-image: url("../img/crop-hand-man-chalking-graph-blackboard.jpeg");
-}
-.bgimg-sviluppatori {
-    background-image: url("../img/238.jpg");
 }
 
 /* 
@@ -145,6 +145,7 @@ section.description {
 }
 .text-container h2 {
     display: block;
+    font-weight: bold;
 }
 .text-container p {
     text-align: justify;
