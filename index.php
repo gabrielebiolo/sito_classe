@@ -25,14 +25,13 @@
             <div class="parallax bgimg-istituto sticky top-0" alt="Docente che scrive alla lavagna">
                 <div class="section-header w-100 d-flex justify-content-center" id="section-istituto">
                     <div class="navbar w-100 col-6 justify-content-center flex-nowrap" id="istituto">
-                    <div class="d-flex w-100 justify-content-around text-white">
-                        <a href="#istituto" class="item">
-                            <div class="d-flex">
-                                <i class="fas fa-chalkboard-teacher"></i>
-                                <span class="label">Istituto</span>
-                            </div>  
-                        </a>
-                        <a href="#section-classe"><i class="bi bi-chevron-bar-right"></i></a>
+                        <div class="d-flex w-100 justify-content-center text-white">
+                            <a href="#istituto" class="item">
+                                <div class="d-flex">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <span class="label">Istituto</span>
+                                </div>  
+                            </a>
                         </div>
                     </div>
                 </div>           
@@ -58,15 +57,13 @@
             <div class="parallax bgimg-classe sticky top-0" alt="Classe">
                 <div class="section-header w-100 d-flex justify-content-center" id="section-classe">
                     <div class="navbar w-100 col-6 justify-content-center flex-nowrap" id="classe">
-                        <div class="d-flex w-100 justify-content-around text-white">
-                            <a href="#section-istituto"><i class="bi bi-chevron-bar-left"></i></a>
+                        <div class="d-flex w-100 justify-content-center text-white">
                             <a href="#classe" class="item">
-                            <div class="d-flex">
-                                <i class="fas fa-user-graduate"></i>
-                                <span class="label">Classe</span>
-                            </div>  
+                                <div class="d-flex justify-self-center">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span class="label">Classe</span>
+                                </div>  
                             </a>
-                            <a href="#section-"><i class="bi bi-chevron-bar-right"></i></a>
                         </div>
                     </div>
                 </div>

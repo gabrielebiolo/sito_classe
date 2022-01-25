@@ -20,16 +20,16 @@ body{
 }
 
 .main-section-wrapper {
-    display: flex;
+    /* display: flex;
     scroll-snap-type: x mandatory;
     overflow-x: auto;
     scroll-margin-right: 15vh;
-    scroll-margin-left: 15vh;
+    scroll-margin-left: 15vh; */
 }
 .main-section-wrapper > div,
 .main-subsection-wrapper {
     height: 100vh;
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
     min-width: 100vw;
 }
 
