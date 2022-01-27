@@ -19,12 +19,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
-    <div class="main-section-wrapper">
+    <nav class="navbar">
+        <div id="nav-menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-        <div id="main-section-istituto" class="main-subsection-wrapper">
+    <div class="main-section-wrapper">
+        <div class="main-subsection-wrapper">
             <div class="parallax bgimg-istituto sticky top-0" alt="Docente che scrive alla lavagna">
-                <div class="section-header w-100 d-flex justify-content-center" id="section-istituto">
-                    <div class="navbar w-100 col-6 justify-content-center flex-nowrap" id="istituto">
+                <div class="section-header w-100 d-flex justify-content-center">
+                    <div class="navbar w-100 col-6 justify-content-center flex-nowrap">
                         <div class="d-flex w-100 justify-content-center text-white">
                             <a href="#istituto" class="item">
                                 <div class="d-flex">
@@ -53,10 +61,10 @@
             </section>
         </div>
 
-        <div id="main-section-classe" class="main-subsection-wrapper">
+        <div class="main-subsection-wrapper">
             <div class="parallax bgimg-classe sticky top-0" alt="Classe">
-                <div class="section-header w-100 d-flex justify-content-center" id="section-classe">
-                    <div class="navbar w-100 col-6 justify-content-center flex-nowrap" id="classe">
+                <div class="section-header w-100 d-flex justify-content-center">
+                    <div class="navbar w-100 col-6 justify-content-center flex-nowrap">
                         <div class="d-flex w-100 justify-content-center text-white">
                             <a href="#classe" class="item">
                                 <div class="d-flex justify-self-center">
