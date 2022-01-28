@@ -19,17 +19,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
 
-    <nav class="navbar">
-        <div id="nav-menu-icon">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
 
     <div class="main-section-wrapper">
         <div class="main-subsection-wrapper">
+            <div id="nav-menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <div class="parallax bgimg-istituto sticky top-0" alt="Docente che scrive alla lavagna">
                 <div class="section-header w-100 d-flex justify-content-center">
                     <div class="navbar w-100 col-6 justify-content-center flex-nowrap">

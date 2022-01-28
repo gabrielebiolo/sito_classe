@@ -44,11 +44,15 @@ body{
     margin: 0;
 }
 #nav-menu-icon {
+    z-index: 100;
+    display: block;
     padding: 0;
     margin: 0;
-    width: 60px;
-    height: 45px;
-    position: relative;
+    width: 3em;
+    height: 2.5em;
+    position: fixed;
+    top: 0.3em;
+    left: 0.4em;
     /* margin: 50px auto; */
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -64,10 +68,11 @@ body{
 #nav-menu-icon span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: .4em;
     width: 100%;
-    background: #686868;
-    border-radius: 9px;
+    background: #e7e7e7;
+    box-shadow: #111 0px 0px 0.8px;
+    border-radius: .4em;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -177,7 +182,7 @@ body{
 ----------------------------------
 */
 .section-header {
-    z-index: 100;
+    z-index: 99;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
