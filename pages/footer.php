@@ -1,10 +1,5 @@
-    <!-- <footer class="">
-        <div class="images-credits">
-            <a class="credit freepik-credit" href="https://www.freepik.com/vectors/school">School vector created by upklyak - www.freepik.com</a>
-            <a class="credit freepik-credit" href="https://www.freepik.com/photos/circle">Circle photo created by freepik - www.freepik.com</a>
-            <a class="credit freepik-credit" href='https://www.freepik.com/vectors/banner'>Banner vector created by roserodionova - www.freepik.com</a>
-        </div>
-
-    </footer> -->
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

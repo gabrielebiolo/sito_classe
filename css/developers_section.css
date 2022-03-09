@@ -1,0 +1,18 @@
+.comments {
+    padding: 3rem;
+    text-align: justify;
+}
+body {
+    background-color: #212529 !important;
+    color: white;
+}
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar p {
+    float: none;
+    padding-left: 20px;
+
+}
